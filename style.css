@@ -802,3 +802,37 @@ h3 {
     bottom: 14px;
   }
 }
+
+/* Correção: impede imagens dos produtos de invadirem o texto */
+.product-card {
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.product-image-button {
+  height: 240px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff8eb;
+}
+
+.product-image {
+  width: auto;
+  height: auto;
+  max-width: 92%;
+  max-height: 205px;
+  object-fit: contain;
+  object-position: center;
+  padding: 0;
+  display: block;
+}
+
+.product-card-body {
+  position: relative;
+  z-index: 2;
+  background: #ffffff;
+  border-top: 1px solid rgba(232, 220, 203, 0.8);
+}
