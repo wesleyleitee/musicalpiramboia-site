@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Imagem indisponível">
+<rect width="800" height="600" fill="#fff8eb"/>
+<circle cx="640" cy="120" r="110" fill="#f7c542" opacity=".25"/>
+<path d="M220 390h360" stroke="#7a4a15" stroke-width="24" stroke-linecap="round"/>
+<path d="M260 250c80-70 190-70 280 0" fill="none" stroke="#f0b12d" stroke-width="20" stroke-linecap="round"/>
+<rect x="250" y="290" width="300" height="82" rx="18" fill="#0c1328"/>
+<circle cx="290" cy="330" r="18" fill="#ef4444"/>
+<circle cx="340" cy="330" r="18" fill="#f8b629"/>
+<circle cx="390" cy="330" r="18" fill="#35d06c"/>
+<text x="400" y="455" font-family="Arial, sans-serif" font-size="34" text-anchor="middle" fill="#0c1328">Musical Pirambóia</text>
+</svg>
