@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Musical Pirambóia | Instrumentos musicais em Pirambóia</title>
+  <meta name="description" content="Catálogo da Musical Pirambóia: instrumentos de sopro, órgãos, acessórios e atendimento especializado via WhatsApp.">
+  <meta name="theme-color" content="#0c1328">
+  <meta property="og:title" content="Musical Pirambóia">
+  <meta property="og:description" content="Instrumentos musicais, órgãos eletrônicos, acessórios e atendimento especializado em Pirambóia.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://musicalpiramboia.com.br/">
+  <meta property="og:image" content="https://musicalpiramboia.com.br/assets/logo-musical-piramboia.jpg">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://cdn.zyrosite.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#catalogo">Pular para o catálogo</a>
+
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a href="#topo" class="brand" aria-label="Musical Pirambóia">
+        <img src="assets/logo-musical-piramboia.jpg" alt="Logo Musical Pirambóia">
+        <span>
+          <strong>Musical</strong>
+          <b>Pirambóia</b>
+        </span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-menu" aria-label="Menu principal">
+        <a href="#inicio">Início</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+        <a class="nav-whatsapp" href="https://wa.me/5514981105058" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Instrumentos • Órgãos • Acessórios</p>
+          <h1>Catálogo da Musical Pirambóia</h1>
+          <p class="lead">Encontre instrumentos musicais, órgãos eletrônicos, acessórios e atendimento especializado para quem vive a música.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://wa.me/5514981105058?text=Olá!%20Vim%20pelo%20site%20da%20Musical%20Pirambóia." target="_blank" rel="noopener">Falar no WhatsApp</a>
+            <a class="btn btn-secondary" href="#catalogo">Ver catálogo</a>
+          </div>
+          <div class="hero-stats" aria-label="Resumo do catálogo">
+            <span><strong>96</strong> produtos</span>
+            <span><strong>4</strong> categorias</span>
+            <span><strong>Atendimento</strong> direto</span>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-hidden="true">
+          <div class="logo-spotlight">
+            <img src="assets/logo-musical-piramboia.jpg" alt="">
+          </div>
+          <div class="hero-note">
+            <span>Catálogo online</span>
+            <strong>Consulte disponibilidade e valores pelo WhatsApp.</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section catalog-section" id="catalogo">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Produtos</p>
+          <h2>Catálogo completo</h2>
+          <p>Use a busca ou filtre por categoria. Os valores e a disponibilidade devem ser confirmados no atendimento.</p>
+        </div>
+
+        <div class="catalog-toolbar" aria-label="Filtros do catálogo">
+          <label class="search-field">
+            <span>Buscar produto</span>
+            <input id="productSearch" type="search" placeholder="Ex.: trompete, tuba, órgão..." autocomplete="off">
+          </label>
+
+          <label class="select-field">
+            <span>Categoria</span>
+            <select id="categoryFilter">
+              <option value="todos">Todas as categorias</option>
+            </select>
+          </label>
+
+          <label class="select-field">
+            <span>Ordenar</span>
+            <select id="sortFilter">
+              <option value="original">Ordem do catálogo</option>
+              <option value="az">Nome A-Z</option>
+              <option value="za">Nome Z-A</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="catalog-summary">
+          <p><strong id="productCount">0</strong> produtos encontrados</p>
+          <button class="text-button" type="button" id="clearFilters">Limpar filtros</button>
+        </div>
+
+        <div class="category-pills" id="categoryPills" aria-label="Categorias rápidas"></div>
+
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="sobre">
+      <div class="container two-columns">
+        <div>
+          <p class="eyebrow">Sobre</p>
+          <h2>Atendimento especializado para músicos, igrejas, bandas e estudantes.</h2>
+        </div>
+        <div class="content-card">
+          <p>A Musical Pirambóia trabalha com instrumentos musicais, órgãos eletrônicos e acessórios. Este site funciona como catálogo: escolha o produto, confira as informações principais e envie uma mensagem direta pelo WhatsApp para consultar preço, estoque e forma de entrega.</p>
+          <p>As descrições e imagens foram organizadas para facilitar a consulta dos produtos já cadastrados na loja.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="servicos">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Serviços</p>
+          <h2>Como podemos atender</h2>
+        </div>
+        <div class="service-grid">
+          <article>
+            <span>01</span>
+            <h3>Venda de instrumentos</h3>
+            <p>Instrumentos de sopro, cordas, órgãos eletrônicos e acessórios para diferentes perfis de músicos.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Consulta pelo WhatsApp</h3>
+            <p>Envie o produto de interesse e receba orientação sobre disponibilidade, valores e condições.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Atendimento próximo</h3>
+            <p>Suporte para quem precisa escolher o instrumento adequado para estudo, apresentação ou uso em congregações.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="container contact-card">
+        <div>
+          <p class="eyebrow">Contato</p>
+          <h2>Fale com a Musical Pirambóia</h2>
+          <p>Para consultar preço, estoque ou detalhes de um produto, chame pelo WhatsApp.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="https://wa.me/5514981105058?text=Olá!%20Gostaria%20de%20consultar%20um%20produto%20do%20catálogo." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+          <a class="btn btn-outline" href="mailto:musicalpiramboia@gmail.com">musicalpiramboia@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="floating-whatsapp" type="button" id="floatingWhatsapp" aria-label="Falar pelo WhatsApp">WhatsApp</button>
+
+  <div class="modal-backdrop" id="productModal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" id="modalClose" aria-label="Fechar">×</button>
+      <div class="modal-grid">
+        <div class="modal-gallery">
+          <img id="modalImage" src="assets/produto-placeholder.svg" alt="">
+          <div class="modal-thumbs" id="modalThumbs"></div>
+        </div>
+        <div class="modal-content">
+          <p class="product-category" id="modalCategory"></p>
+          <h2 id="modalTitle"></h2>
+          <p class="product-subtitle" id="modalSubtitle"></p>
+          <div id="modalDescription" class="description-list"></div>
+          <div class="modal-actions">
+            <a class="btn btn-primary" id="modalWhatsapp" href="#" target="_blank" rel="noopener">Consultar no WhatsApp</a>
+            <button class="btn btn-outline" type="button" id="copyProduct">Copiar nome</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <template id="productCardTemplate">
+    <article class="product-card">
+      <button class="product-image-button" type="button">
+        <img class="product-image" loading="lazy" alt="">
+      </button>
+      <div class="product-card-body">
+        <p class="product-category"></p>
+        <h3></h3>
+        <p class="product-subtitle"></p>
+        <p class="product-description-preview"></p>
+        <div class="product-actions">
+          <button class="btn btn-small btn-secondary details-button" type="button">Ver detalhes</button>
+          <a class="btn btn-small btn-primary whatsapp-button" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="products-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

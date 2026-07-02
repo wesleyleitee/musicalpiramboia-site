@@ -1,0 +1,14 @@
+{
+  "generated_from": [
+    "parte1.txt",
+    "parte2.txt"
+  ],
+  "products_count": 96,
+  "images_count": 249,
+  "categories": [
+    "Acessórios",
+    "Instrumentos de cordas",
+    "Instrumentos de sopro",
+    "Órgãos"
+  ]
+}
